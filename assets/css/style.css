@@ -83,6 +83,7 @@ body {
   nav {
     float: right;
     margin-top: 25px;
+    
   }
   
   nav a {
@@ -222,16 +223,53 @@ body {
   @media screen and (max-width: 980px) {
     .container {
       background-color:blueviolet;
-    }}
+    
+    }
+  
+  
+    #main-container {
+      width: 66%;
+      float: left;
+
+    }
+    }
+
 
     @media screen and (max-width: 768px) {
       .container {
         background-color: blue;
+      }
+    
+    
+    
+      #main-container {
+        width: 90%;
+        margin: 0 10px 0 10px;
+        
+  
       }}
 
       @media screen and (max-width: 640px) {
         .container {
           background-color: red;
-        }}
+        }
+      
+        #main-container {
+          width: 90%;
+          margin: 50px 10px 0 10px;}
+          
+          #logo {
+          
+            width: 100%;
+            }
+
+          nav {
+              float: left;
+              margin-top: 25px;
+              padding-left: 60px;
+              
+              
+            }
+          }
       
   
